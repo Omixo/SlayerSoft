@@ -22,3 +22,4 @@ async function updateTerminationStatus(id, status) {
 }
 
 module.exports = { requestTermination, updateTerminationStatus };
+// This code defines a model for handling termination requests in a Supabase database.
