@@ -1,6 +1,6 @@
 const supabase = require("../config/supabase");
 const { generateRoleCode } = require("../utils/roleCodeGen");
-
+// created by: @slayerSoft
 exports.getMe = async (req, res) => {
   try {
     const { data, error } = await supabase
