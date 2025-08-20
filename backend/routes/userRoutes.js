@@ -8,3 +8,6 @@ router.get("/me", auth, userController.getMe);
 router.post("/", auth, roleCheck(["HR", "Manager", "CEO"]), userController.createUser);
 
 module.exports = router;
+
+
+// This code defines routes for handling user-related operations in an Express application.
