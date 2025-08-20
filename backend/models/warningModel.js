@@ -20,3 +20,4 @@ async function getWarningsByUser(employee_id) {
 }
 
 module.exports = { issueWarning, getWarningsByUser };
+// This code defines a model for handling employee warnings in a Supabase database.
