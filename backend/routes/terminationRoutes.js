@@ -8,3 +8,5 @@ router.post("/", auth, roleCheck(["Manager", "CEO"]), terminationController.requ
 router.put("/:id", auth, roleCheck(["CEO"]), terminationController.updateTerminationStatus);
 
 module.exports = router;
+
+// This code defines routes for handling employee termination requests in an Express application.
