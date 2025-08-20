@@ -24,3 +24,6 @@ async function generateRoleCode(role) {
 }
 
 module.exports = { generateRoleCode };
+
+
+// This code defines a utility function to generate unique role codes for different user roles in a Supabase database.
