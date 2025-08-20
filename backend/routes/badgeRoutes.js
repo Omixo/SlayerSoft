@@ -8,3 +8,4 @@ router.post("/", auth, roleCheck(["HR", "Manager", "CEO"]), badgeController.awar
 router.get("/:userId", auth, badgeController.getBadges);
 
 module.exports = router;
+// This code defines routes for handling badge-related operations in an Express application.
