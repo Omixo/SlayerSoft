@@ -7,3 +7,6 @@ router.post("/", auth, ratingController.submitRating);
 router.get("/:userId", auth, ratingController.getRatings);
 
 module.exports = router;
+
+
+// This code defines routes for handling peer ratings in an Express application.
