@@ -30,3 +30,8 @@ const PORT = process.env.PORT || 4000;
 app.listen(PORT, () => {
   console.log(`✅ Server running on http://localhost:${PORT}`);
 });
+
+
+// Export the app for testing purposes
+module.exports = app;     
+// This code sets up an Express server with various routes for handling user-related operations, warnings, terminations, ratings, and badges in a hypothetical HR management system. It uses environment variables for configuration and includes CORS support for cross-origin requests. The server listens on a specified port and responds to a root route with a confirmation message.
