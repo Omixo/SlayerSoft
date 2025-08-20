@@ -1,3 +1,4 @@
+//rolecheck in middeware
 function roleCheck(allowedRoles) {
   return (req, res, next) => {
     const role = req.user?.user_metadata?.role;
