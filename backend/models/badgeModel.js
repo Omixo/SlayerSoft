@@ -20,3 +20,4 @@ async function getBadgesByUser(employee_id) {
 }
 
 module.exports = { awardBadge, getBadgesByUser };
+//created by: @slayerSoft
