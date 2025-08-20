@@ -20,3 +20,4 @@ async function getRatingsByUser(rated_employee_id) {
 }
 
 module.exports = { submitRating, getRatingsByUser };
+// This code defines a model for handling peer ratings in a Supabase database.
