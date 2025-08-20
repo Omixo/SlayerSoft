@@ -23,3 +23,4 @@ async function createUser({ full_name, email, role }) {
 }
 
 module.exports = { getUserById, createUser };
+// This code defines a model for handling user data in a Supabase database.
