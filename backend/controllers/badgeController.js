@@ -1,5 +1,5 @@
 const supabase = require("../config/supabase");
-
+//created by: @slayerSoft 
 exports.awardBadge = async (req, res) => {
   try {
     const { employee_id, badge_type, criteria_met } = req.body;
