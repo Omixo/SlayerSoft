@@ -1,5 +1,5 @@
 const supabase = require("../config/supabase");
-
+// created by: @slayerSoft
 exports.requestTermination = async (req, res) => {
   try {
     const { employee_id, reason, termination_type } = req.body;
