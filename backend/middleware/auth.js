@@ -1,5 +1,6 @@
 const supabase = require("../config/supabase");
-
+// Middleware to check authentication using Supabase JWT
+// created by: @slayerSoft
 async function authMiddleware(req, res, next) {
   try {
     const authHeader = req.headers["authorization"];
