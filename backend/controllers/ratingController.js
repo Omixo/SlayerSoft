@@ -1,5 +1,5 @@
 const supabase = require("../config/supabase");
-
+// created by: @slayerSoft
 exports.submitRating = async (req, res) => {
   try {
     const { rated_employee_id, rating, month, year, comments } = req.body;
